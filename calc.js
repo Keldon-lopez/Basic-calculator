@@ -28,6 +28,8 @@ reader.question("What would you like to calculate?", function(input){
 		console.log(num1*num2)
 	} else if (mathSymbol === "/"){
 		console.log(num1/num2)
+	} else{
+		console.log("Math symbol not provided. Please format input as symbol number number ")
 	}
 
 
